@@ -32,9 +32,9 @@ function App() {
 
   let status;
   if (winner) {
-    status = 'Winner:' + winner
+    status = 'Winner is :' + winner
   } else {
-    status = `Next player: ${xIsNext ? 'X' : 'O'}`
+    status = `Next player is : ${xIsNext ? 'X' : 'O'}`
   }
 
   const handleClick = (i) => {
